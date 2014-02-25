@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops">
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops">
   <head></head>
-  <body></body>
+  <body><h1>
+  
+    Undo Expectations </h1><p>1. Basically what I expect to happen when I hit undo, is that things undo up to the last structural change. If I hit undo anytime in this paragraph, some subset of what I typed should disappear, but not the heading above me or the paragraph above (if there were one) or the semantic element above me.</p><h2>2. Inside this subheading hitting undo should only delete some part of this heading, not the para before. </h2><div class="note"><span class="title">4. Hitting undo while in the title, should only delete up to the title.</span><p>3. Right after I add this note, undo should just remove the note. If I hit undo after typing some in this para inside the note, only characters inside this para should disappear and maybe this whole para, but not more.</p><p>5. If I delete this note and hit undo, the entire note should restore, and nothing else should happen.</p></div><p class="" style="">6. If I hit undo and then redo, my document should look like it did just before I hit undo.</p><blockquote class="quote" id="21e5643c-682f-5ec3-5d06-a0046f787115"><p>If I select "Copy quotation" and then hit undo, it should undo something I did before that action. Since copy doesn't change anything.</p></blockquote></body>
 </html>
